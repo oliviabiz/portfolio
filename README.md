@@ -1,3 +1,3 @@
 # oliviabiz.github.io
 Personal portfolio for Olivia Bizimungu
-(http://oliviabiz.me)
+[oliviabiz.me](http://oliviabiz.me)
