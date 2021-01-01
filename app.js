@@ -52,7 +52,7 @@ var images_film = [
 
 var sets = [
     { list: iphone_list, content: images_iphone },
-    { list: film_list, content: images_film }
+    // { list: film_list, content: images_film }
 ]
 
 sets.forEach(set => {
