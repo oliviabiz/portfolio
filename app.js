@@ -2,21 +2,21 @@
 var iphone_list = document.querySelector('#iphone-list')
 var film_list = document.querySelector('#film-list')
 var images_iphone = [
-    "resources/img/iphone/selects/jord.JPG",
-    "resources/img/iphone/selects/jen2.JPG",
-    "resources/img/iphone/selects/lolee.JPG",
-    "resources/img/iphone/selects/portrait.JPG",
-    "resources/img/iphone/selects/arch.JPG",
-    "resources/img/iphone/selects/jack.JPG",
-    "resources/img/iphone/selects/jen.JPG",
-    "resources/img/iphone/selects/seena2.JPG",
-    "resources/img/iphone/selects/isa.JPG",
-    "resources/img/iphone/selects/jord2.JPG",
-    "resources/img/iphone/selects/mindinz2.JPG",
-    "resources/img/iphone/selects/gm.JPG",
-    "resources/img/iphone/selects/arch3.JPG",
-    "resources/img/iphone/selects/arch4.JPG",
-    "resources/img/iphone/selects/irving.JPG",
+    "resources/img/iphone/jord.jpg",
+    "resources/img/iphone/jen2.jpg",
+    "resources/img/iphone/lolee.jpg",
+    "resources/img/iphone/portrait.jpg",
+    "resources/img/iphone/arch.jpg",
+    "resources/img/iphone/jack.jpg",
+    "resources/img/iphone/jen.jpg",
+    "resources/img/iphone/seena2.jpg",
+    "resources/img/iphone/isa.jpg",
+    "resources/img/iphone/jord2.jpg",
+    "resources/img/iphone/mindinz2.jpg",
+    "resources/img/iphone/gm.jpg",
+    "resources/img/iphone/arch3.jpg",
+    "resources/img/iphone/arch4.jpg",
+    "resources/img/iphone/irving.jpg",
 ]
 
 var images_film = [
@@ -32,13 +32,13 @@ var images_film = [
 
     "resources/img/film/jord5.jpg",
 
-    "resources/img/film/zo1.JPG",
-    "resources/img/film/zo2.JPG",
+    "resources/img/film/zo1.jpg",
+    "resources/img/film/zo2.jpg",
     "resources/img/film/gm4.jpg",
 
-    "resources/img/film/bw1.JPG",
-    "resources/img/film/bw2.JPG",
-    "resources/img/film/bw3.JPG",
+    "resources/img/film/bw1.jpg",
+    "resources/img/film/bw2.jpg",
+    "resources/img/film/bw3.jpg",
 
 ]
 
