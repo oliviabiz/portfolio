@@ -3,7 +3,11 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" > -->
+    <meta name="author" content="Olivia Bizimungu">
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no">
     <title>olivia bizimungu</title>
 
     <style>
@@ -16,76 +20,64 @@
 </head>
 
 <body>
-    <!-- <div class="page" id="page-1"> -->
     <header>
-        <nav id="main-nav">
-            <a class="main-nav-link" href="http://">home</a>
-            <a class="main-nav-link" href="http://">art</a>
-            <a class="main-nav-link" href="http://">research</a>
-            <a class="main-nav-link" href="http://">code</a>
-            <a class="main-nav-link" href="http://">about</a>
-        </nav>
-        <p id="title">olivia bizimungu</p>
+        <div id="nav-bar">
+            <nav id="main-nav">
+                <a class="main-nav-link" href="http://">home</a>
+                <a class="main-nav-link" href="http://">art</a>
+                <!-- <a class="main-nav-link" href="http://">research</a> -->
+                <!-- <a class="main-nav-link" href="http://">code</a> -->
+                <a class="main-nav-link" href="contact.html">contact</a>
+            </nav>
+            <p id="title">olivia bizimungu</p>
+        </div>
+
     </header>
 
 
     <div class="container">
 
         <ul id="list">
-            <li class="block"></li>
-            <li class="block"></li>
             <li class="block">
-                <h1>wannabe artist</h1>
-                sometimes i take pictures on my <a href="#" class="phone-link">phone</a>
-                <br>
-                other times i shoot <a href="#" class="film-link">film</a>
-                <!-- <p>art has always been a driving force</p> -->
-                <!-- <p>i enjoy shooting portraits, capturing the life around me</p> -->
-                <!-- <p>like what you see? <a href="">contact me</a> if you would like to create together</p> -->
+                <h1>portfolio</h1>
+                <!-- <h1>le photographe est </h1> -->
+                <p>here are some of my favourite works, shot on <a class="inner-link phone-link" href="#">phone</a> &
+                    <a class="inner-link film-link" href="#">film</a>
+                    cameras
+                </p>
+                <p>i gravitate naturally towards symmetry, and light in dark places</p>
+                <!-- <p>i seek to enhancing a feeling, or abstraction to the point of extinction. no in between</p> -->
+                <!-- <p>sometimes i shoot on my <a href="#" class="inner-link">phone</a></p> -->
+                <!-- <p>other times i shoot <a href="#" class="inner-link">film</a></p> -->
             </li>
-            <li class="block"></li>
-            <li class="block"></li>
-            <li class="block">
-                <h2>shot on iphone</h2>
-                <h3>edited with VSCO</h3>
-                <br><br>
-                <br>
-                <p>skip to <a href="#" class="film-link" style="text-decoration:underline; color:inherit">film</a></p>
+            <li class="block" id="pre-phone-block">
+                <p>shot on iphone</p>
+                <p class="arrow">--></p>
+                <p>edited on <a class="inner-link" target=”_blank” href="https://vsco.co/olibiz/gallery">vsco</a></p>
             </li>
-            <li class="block" id="pre-phone-block"></li>
             <li>
                 <ul class="photo-list" id="iphone-list">
                 </ul>
             </li>
-            <li class="block"></li>
-            <li class="block"></li>
-            <li class="block" id="pre-film-block"></li>
-            <li class="block"></li>
-            </li>
-            <li class="block" id="film-block">
-                <h1>shot on film</h1>
+            <li class="block" id="pre-film-block">
+                <p>shot on 35mm film</p>
+                <p class="arrow">--></p>
                 <p>nikkormat ftn</p>
-                <i>made with luv</i>
-                <br>
-                <p>back to <a href="#" class="iphone-link" style="text-decoration:underline; color:inherit">iphone</a>
-                </p>
-                <!-- <p>an ode to kodak gold</p> -->
             </li>
-            <li class="block"></li>
             <li>
                 <ul class="photo-list" id="film-list">
                 </ul>
             </li>
-            <li class="block"></li>
-            <li class="block" id="film-block">
-                <i>
-                    film</i>
-            </li>
+            <!-- <li class="block"></li> -->
+            <!-- <li class="block" id="film-block"> -->
+            <!-- <i> -->
+            <!-- film</i> -->
+            <!-- </li> -->
         </ul>
 
     </div>
-    <footer>
-        <!-- <marquee id="top-marquee" behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop()"
+    <!-- <footer> -->
+    <!-- <marquee id="top-marquee" behavior="scroll" direction="left" scrollamount="10" onmouseover="this.stop()"
             onmouseout="this.start()">
             <span>i'm obsessed with these ideas of nostalgia, intrustion, self-indulgence.</span>
             <span>find a signal in the noise</span>
@@ -99,7 +91,7 @@
             <span>single axis of symmetry, traverses the earth</span>
             <span>LONGING?</span>
         </marquee> -->
-        <!-- <marquee id="bottom-marquee" behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop()"
+    <!-- <marquee id="bottom-marquee" behavior="scroll" direction="right" scrollamount="10" onmouseover="this.stop()"
             onmouseout="this.start()">
             <span>i'm obsessed with these ideas of nostalgia, intrustion, self-indulgence.</span>
             <span>find a signal in the noise</span>
@@ -113,7 +105,7 @@
             <span>single axis of symmetry, traverses the earth</span>
             <span>LONGING?</span>
         </marquee> -->
-    </footer>
+    <!-- </footer> -->
 </body>
 <script src="app.js"></script>
 

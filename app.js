@@ -8,7 +8,7 @@ var images_iphone = [
     "resources/img/iphone/portrait.jpg",
     "resources/img/iphone/arch.jpg",
     "resources/img/iphone/jack.jpg",
-    "resources/img/iphone/jen.jpg",
+    "resources/img/iphone/jen-edit.jpg",
     "resources/img/iphone/seena2.jpg",
     "resources/img/iphone/isa.jpg",
     "resources/img/iphone/jord2.jpg",
@@ -44,7 +44,7 @@ var images_film = [
 
 var sets = [
     { list: iphone_list, content: images_iphone },
-    // { list: film_list, content: images_film }
+    { list: film_list, content: images_film }
 ]
 
 sets.forEach(set => {
