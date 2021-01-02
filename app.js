@@ -74,16 +74,29 @@ document.addEventListener('keyup', (e) => {
 var phoneBlock = document.querySelector('#pre-phone-block');
 var filmBlock = document.querySelector('#pre-film-block');
 
-document.querySelectorAll(".film-link").forEach(film => {
-    film.addEventListener('click', e => {
-        e.preventDefault();
-        window.scrollTo(filmBlock.offsetLeft, filmBlock.offsetTop);
-    })
-})
+// document.querySelectorAll(".film-link").forEach(film => {
+//     film.addEventListener('click', e => {
+//         e.preventDefault();
+//         window.scrollTo(filmBlock.offsetLeft, filmBlock.offsetTop);
+//     })
+// })
 
-document.querySelectorAll(".phone-link").forEach(film => {
-    film.addEventListener('click', e => {
-        e.preventDefault();
-        window.scrollTo(phoneBlock.offsetLeft, phoneBlock.offsetTop);
-    })
-})
+// document.querySelectorAll(".phone-link").forEach(film => {
+//     film.addEventListener('click', e => {
+//         e.preventDefault();
+//         window.scrollTo(phoneBlock.offsetLeft, phoneBlock.offsetTop);
+//     })
+// })
+
+// document.querySelector('#back-to-start').addEventListener('click', e => {
+//     e.preventDefault();
+//     window.scrollTo(0, 0);
+// })
+
+window.onload = function () {
+    document.querySelectorAll('.display-image').forEach(
+        (image) => {
+            image.style.visibility = 'visible'
+        }
+    )
+}

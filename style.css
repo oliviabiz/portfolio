@@ -28,18 +28,16 @@ html, body{
     box-sizing: border-box;
     /* cursor:url(resources/ring-full.svg), auto; */
     cursor: url(resources/trn_b_75.png), auto;
-}
-
-p{
-    /* font-size: 24px; */
     font-family: "Merriweather";
 }
 
 a{
     font-family: "Merriweather";
     text-decoration: none;
-    border: 2px dashed transparent;
-    border-radius: 5px;
+    padding: 0.075em 0.35em;
+    border-bottom: 0.1em solid transparent;
+    /* border: 2px dashed transparent; */
+    /* border-radius: 5px; */
     transition: 0.25s;
 }
 
@@ -50,6 +48,7 @@ a:hover, a:active{
 .container{
     position: absolute;
     top: 4vh;
+    /* top: auto; */
     bottom: 0;   
     z-index: 100;
    
@@ -72,13 +71,15 @@ header{
     top: 0;
     left: 0;
     margin: 0;
-    height: 4vh;
+    /* height: 4vh; */
+    min-height: 4vh;
+    max-height: fit-content;
     width: 100vw;
     background-color:black;
     position: fixed; 
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    /* justify-content: space-around; */
     align-items: center;
 
     transition: 0.5s;
@@ -108,16 +109,17 @@ menu{
 }
 
 #nav-bar{
-    height: 100%;
+    /* height: 100%; */
+    max-height: fit-content;
     width: 100%;;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
 }
 
 #main-nav{
-    width: 80%;
+    /* width: 80%; */
     height: 100%;
     display: flex;
     flex-direction: row;
@@ -129,14 +131,17 @@ menu{
 header *{
     color: whitesmoke;
     /* font-size: 100%; */
+    font-size: 2.5vmin;
 }
 
 #title{
+    max-height: min-content;
+    margin: 0;
     font-size: 1.5em;
 }
 
 .main-nav-link{
-    padding: 0.3em;
+    /* padding: 0.3em; */
 }
 
 
@@ -224,12 +229,21 @@ ul{
     }
 
     .block{
+        overflow-y: scroll;
         min-height: 95vh;
         height: fit-content;
     }
 
     .arrow{
         -webkit-transform: rotate(90deg);
+    }
+
+    header{
+        opacity: 20%;
+    }
+
+    header:hover{
+        opacity: 100%;
     }
 }
 
@@ -244,7 +258,8 @@ ul{
     }
 
     header *{
-        font-size: 0.85em;
+        font-size: 4vmin;
+        
     }
 
     header:hover, header:active, header:focus{
@@ -269,6 +284,8 @@ li{
     position: relative;
     opacity: 90%;
     z-index: 1;
+    /* display: none; */
+    visibility: hidden;
 }
 
 .display-image:hover, .display-image:active, .display-image:focus{   
@@ -283,24 +300,20 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     text-align: center;
-    box-sizing: content-box;
     font-family: "Merriweather";
     font-size: x-large;
-    /* min-width: 70vw; */
-    /* max-height: 100%;     */
-
-    /* min-height: 80vh; */
-    /* max-height: fit-content; */
-    /* height: fit-content; */
     
+    padding: 5%;
     min-width: 100vw;
-    /* width: 100%; */
-
     margin: 0;
     /* border-bottom: 1px dashed black; */
+}
 
+.full{
+    height: fit-content;
+    justify-content: flex-start;
 }
 
 .inner-link:hover, .inner-link:active{
@@ -309,6 +322,34 @@ li{
 
 .inner-link{
     color: rgb(110, 110, 110);
-    padding: 0.2em;
+    /* padding: 0.2em; */
     margin: 0;
+    width: fit-content;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: space-around;
+    /* height: fit-content; */
+}
+
+textarea:hover, textarea:focus{
+    cursor: text;
+}
+
+input{
+   padding: 1em;
+    width: 30vmax;
+    height: 5vh;
+    word-wrap: none;
+    white-space: nowrap;
+}
+
+#email{
+    flex-grow: 1;
+}
+
+#msg{
+    flex-grow: 2;
 }

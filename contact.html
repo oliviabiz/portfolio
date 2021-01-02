@@ -26,10 +26,56 @@
                 <!-- <a class="main-nav-link" href="http://">code</a> -->
                 <a class="main-nav-link" href="contact.html">contact</a>
             </nav>
-            <!-- <p id="title">olivia bizimungu</p> -->
-
+            <p id="title">olivia bizimungu</p>
         </div>
+
     </header>
+
+    <div class="container">
+        <div class="block full">
+            <h1>for more photos</h1>
+            <a class="inner-link" target="_blank" href="https://instagram.com/oliviabiz">instagram</a>
+            <a class="inner-link" target="_blank" href="https://vsco.co/olibiz">vsco</a>
+            <a class="inner-link" target="_blank" href="https://www.flickr.com/people/185853733@N07/">flickr</a>
+
+            <h1>want to create?</h1>
+            <p>let's get in touch!</p>
+            <form action="">
+                <!-- <input type="email" placeholder="Enter your email" name="email" id="email" required> -->
+                <input type="text" name="" id="msg" cols="30" rows="50" placeholder="Your message" maxlength="1800"
+                    required>
+                <input type="submit" id="submitBtn" value="Send email">
+
+            </form>
+        </div>
+    </div>
+
 </body>
+
+<script>
+    var msgArea = document.getElementById('msg');
+    var addrArea = document.getElementById('email');
+    var btn = document.getElementById('submitBtn');
+    var form = document.getElementsByTagName('form')[0];
+
+    // function validateEmail(email) {
+    //     const re = /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    //     return re.test(String(email).toLowerCase());
+    // }
+
+    form.addEventListener('submit', (e) => {
+        e.preventDefault();
+        var msg = msgArea.value;
+        // var addr = addrArea.value;
+        var dest = 'hmhsj0@gmail.com';
+
+        if (confirm(`Send "${msg}"?`)) {
+            var format = msg.replace(' ', '%20');
+            var url = `mailto:${dest}?subject=RE: Portfolio&body=${format}`;
+            console.log(url);
+            window.open(url, '_blank');
+        }
+    })
+</script>
 
 </html>
