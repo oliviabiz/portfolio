@@ -291,7 +291,7 @@ li{
 .display-image:hover, .display-image:active, .display-image:focus{   
     opacity: 100%;
     z-index: 100;
-    transform: scale(1.15);
+    /* transform: scale(1.15); */
     cursor:url(resources/trn_b_25.png), auto;
 }
 
