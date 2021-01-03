@@ -206,7 +206,7 @@ ul{
 }
 @media (orientation:portrait){
     /* define a fixed width, scale height accordingly */
-    html,body{
+    html,body,.container{
         overflow-x: hidden;
     }
 
