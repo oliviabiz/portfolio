@@ -2,43 +2,43 @@
 var iphone_list = document.querySelector('#iphone-list')
 var film_list = document.querySelector('#film-list')
 var images_iphone = [
-    "resources/img/iphone/jord.jpg",
-    "resources/img/iphone/jen2.jpg",
-    "resources/img/iphone/lolee.jpg",
-    "resources/img/iphone/portrait.jpg",
-    "resources/img/iphone/arch.jpg",
-    "resources/img/iphone/jack.jpg",
-    "resources/img/iphone/jen-edit.jpg",
-    "resources/img/iphone/seena2.jpg",
-    "resources/img/iphone/isa.jpg",
-    "resources/img/iphone/jord2.jpg",
-    "resources/img/iphone/mindinz2.jpg",
-    "resources/img/iphone/gm.jpg",
-    "resources/img/iphone/arch3.jpg",
-    "resources/img/iphone/arch4.jpg",
-    "resources/img/iphone/irving.jpg",
+    "resources/img/iphone/resize/jord.jpg",
+    "resources/img/iphone/resize/jen2.jpg",
+    "resources/img/iphone/resize/lolee.jpg",
+    "resources/img/iphone/resize/portrait.jpg",
+    "resources/img/iphone/resize/arch.jpg",
+    "resources/img/iphone/resize/jack.jpg",
+    "resources/img/iphone/resize/jen-edit.jpg",
+    "resources/img/iphone/resize/seena2.jpg",
+    "resources/img/iphone/resize/isa.jpg",
+    "resources/img/iphone/resize/jord2.jpg",
+    "resources/img/iphone/resize/mindinz2.jpg",
+    "resources/img/iphone/resize/gm.jpg",
+    "resources/img/iphone/resize/arch3.jpg",
+    "resources/img/iphone/resize/arch4.jpg",
+    "resources/img/iphone/resize/irving.jpg",
 ]
 
 var images_film = [
 
-    "resources/img/film/han1.jpg",
-    "resources/img/film/han2.jpg",
-    "resources/img/film/han3.jpg",
-    "resources/img/film/han4.jpg",
-    "resources/img/film/jord1.jpg",
-    "resources/img/film/jord2.jpg",
-    "resources/img/film/jord4.jpg",
-    "resources/img/film/jord3.jpg",
+    "resources/img/film/resize/han1.jpg",
+    "resources/img/film/resize/han2.jpg",
+    "resources/img/film/resize/han3.jpg",
+    "resources/img/film/resize/han4.jpg",
+    "resources/img/film/resize/jord1.jpg",
+    "resources/img/film/resize/jord2.jpg",
+    "resources/img/film/resize/jord4.jpg",
+    "resources/img/film/resize/jord3.jpg",
 
-    "resources/img/film/jord5.jpg",
+    "resources/img/film/resize/jord5.jpg",
 
-    "resources/img/film/zo1.jpg",
-    "resources/img/film/zo2.jpg",
-    "resources/img/film/gm4.jpg",
+    "resources/img/film/resize/zo1.jpg",
+    "resources/img/film/resize/zo2.jpg",
+    "resources/img/film/resize/gm4.jpg",
 
-    "resources/img/film/bw1.jpg",
-    "resources/img/film/bw2.jpg",
-    "resources/img/film/bw3.jpg",
+    "resources/img/film/resize/bw1.jpg",
+    "resources/img/film/resize/bw2.jpg",
+    "resources/img/film/resize/bw3.jpg",
 
 ]
 
