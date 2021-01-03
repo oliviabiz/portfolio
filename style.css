@@ -331,6 +331,7 @@ ul{
 }
 
 li{
+    width: fit-content;
     height: fit-content;
 }
 
@@ -361,7 +362,6 @@ li{
     text-align: center;
     font-family: "Merriweather";
     font-size: x-large;
-    
     padding: 5%;
     min-width: 100vw;
     margin: 0;
