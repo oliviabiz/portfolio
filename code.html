@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Olivia Bizimungu">
+
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no">
+    <title>olivia bizimungu</title>
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@900&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+        @import url('https://fonts.googleapis.com/css2?family=Martel:wght@200&display=swap');
+    </style>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div id="nav-bar">
+            <nav id="main-nav">
+                <a class="main-nav-link" href="index.html">home</a>
+                <a class="main-nav-link" href="art.html">art</a>
+                <a class="main-nav-link" href="research.html">research</a>
+                <a class="main-nav-link" href="#">code</a>
+                <a class="main-nav-link" href="contact.html">contact</a>
+            </nav>
+            <p id="title">olivia bizimungu</p>
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <ul id="list">
+            <li>
+                <div class="component project">
+                    <div class="project-image-container">
+                        <img class="project-image" src="resources/img/code/insync-login.jpg" alt="">
+                    </div>
+                    <div class="project-title">
+                        <i>
+                            <a class="inner-link" target="_blank" href="https://github.com/oliviabiz/inSync">
+                                <img class="icon" src="resources/github.png" alt="" srcset="">
+                            </a>
+                        </i>
+                        <a target="_blank" href="https://in-sync.azurewebsites.net/">
+                            <h3 class="inner-link"> inSync</h3>
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-description">
+                            <p>Synchronized streaming application. Users can create/join a viewing room, queue
+                                videos to watch together, and chat in real-time.
+                            </p>
+
+                        </div>
+
+                        <ul class="tech-list">
+                            <span class="tech">Node.js</span>
+                            <span class="tech">YouTube Data API</span>
+                            <span class="tech">socket.io</span>
+                        </ul>
+
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <div class="component project">
+                    <div class="project-image-container">
+                        <img class="project-image" src="resources/img/code/graph.jpg" alt="">
+                    </div>
+                    <div class="project-title">
+                        <i class="icon">
+                            <a class="inner-link" target="_blank" href="https://github.com/oliviabiz/graph">
+                                <img class="icon" src="resources/github.png" alt="" srcset="">
+                            </a>
+                        </i>
+                        <a target="_blank" href="https://www.oliviabiz.me/graph/">
+                            <h3 class="inner-link"> Graph Theory</h3>
+                        </a>
+                    </div>
+                    <div class="project-info">
+                        <div class="project-description">
+                            <p>
+                                Interactive site to help learn the basics of graph theory.
+                            </p>
+
+                        </div>
+
+                        <ul class="tech-list">
+                            <span class="tech">HTML Canvas</span>
+                            <span class="tech">Javascript</span>
+                        </ul>
+
+                    </div>
+                </div>
+            </li>
+
+        </ul>
+
+    </div>
+</body>
+<script src="app.js"></script>
+
+</html>

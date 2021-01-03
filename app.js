@@ -50,7 +50,7 @@ var sets = [
 sets.forEach(set => {
     set.content.forEach(element => {
         var item = document.createElement('li');
-        item.innerHTML = `<img class="display-image" src="${element}" alt="">`
+        item.innerHTML = `<img class="display-image component" src="${element}" alt="">`
         set.list.appendChild(item);
 
         item.addEventListener('contextmenu', function (e) {
