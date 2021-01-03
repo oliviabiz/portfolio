@@ -210,6 +210,10 @@ ul{
         overflow-x: hidden;
     }
 
+    body{
+        width: 100%;
+    }
+
     .display-image{
         width: 80vw;
     }
