@@ -206,6 +206,9 @@ ul{
 }
 @media (orientation:portrait){
     /* define a fixed width, scale height accordingly */
+    html,body{
+        overflow-x: hidden;
+    }
 
     .display-image{
         width: 80vw;
@@ -237,7 +240,6 @@ ul{
         padding: 0;
     }
 
-    /* TODO */
     .block{
         /* overflow-y: scroll; */
         /* min-height: 95vh; */
