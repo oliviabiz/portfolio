@@ -63,7 +63,6 @@ a:hover, a:active{
 #list{
     width: 100%;
     height: 100%;
-    /* margin-top: auto; */
 }
 
 header{
@@ -153,27 +152,6 @@ footer{
     transition: 0.5s ease;
     font-size: 2em;
 }
-
-marquee:hover{
-    color: black;
-}
-
-marquee{
-    height: max-content;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    justify-content: stretch;
-}
-
-#top-marquee *{
-    margin-right: 25vw;
-}
-#bottom-marquee *{
-    margin-left: 25vw;
-}
-
 
 ul{
     height: 100%;
@@ -266,6 +244,20 @@ ul{
 
     #about{
         /* height: 100vw; */
+    }
+
+    .erase{
+        display: none;
+    }
+
+    .mini{
+        /* height: 20vw; */
+    }
+
+    .container, .content-list, li, body, html{
+        align-items: center;
+        justify-content: center;
+        width: 100%;
     }
 
 }
