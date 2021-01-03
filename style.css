@@ -217,6 +217,7 @@ ul{
     .container{
         position: fixed;
         padding: 0;
+        overflow-x: hidden;
     }
     #list{
         width: 100vw;
@@ -232,10 +233,13 @@ ul{
         padding: 0;
     }
 
+    /* TODO */
     .block{
-        overflow-y: scroll;
-        min-height: 95vh;
-        height: fit-content;
+        /* overflow-y: scroll; */
+        /* background-color: aquamarine; */
+        /* min-height: 95vh; */
+        max-height: fit-content;
+        /* height: 20vh; */
     }
 
     .arrow{
@@ -478,4 +482,10 @@ input{
 
 .tech:hover{
     background-color: rgb(148, 203, 214);
+}
+
+#about{
+    text-align: left;
+    /* justify-content: flex-end; */
+    align-items: flex-start;
 }
