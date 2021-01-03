@@ -206,6 +206,10 @@ ul{
 }
 @media (orientation:portrait){
     /* define a fixed width, scale height accordingly */
+    html, body {
+        overflow-x: hidden;
+      }
+      
     .display-image{
         width: 80vw;
     }
@@ -223,6 +227,8 @@ ul{
         width: 100vw;
         flex-direction: column;
         overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        height:100%;
     }
     .content-list{
         /* width: 100vw; */
@@ -236,7 +242,7 @@ ul{
     /* TODO */
     .block{
         /* overflow-y: scroll; */
-        /* background-color: aquamarine; */
+        background-color: aquamarine;
         /* min-height: 95vh; */
         max-height: fit-content;
         /* height: 20vh; */
