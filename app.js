@@ -31,14 +31,16 @@ var images_film = [
     "resources/img/film/resize/jord3.jpg",
 
     "resources/img/film/resize/jord5.jpg",
-
     "resources/img/film/resize/zo1.jpg",
     "resources/img/film/resize/zo2.jpg",
-    "resources/img/film/resize/gm4.jpg",
-
-    "resources/img/film/resize/bw1.jpg",
-    "resources/img/film/resize/bw2.jpg",
+    "resources/img/film/resize/bw14.jpg",
+    "resources/img/film/resize/bw9.jpg",
+    "resources/img/film/resize/bw5.jpg",
     "resources/img/film/resize/bw3.jpg",
+    "resources/img/film/resize/bw4.jpg",
+    "resources/img/film/resize/bw8.jpg",
+    "resources/img/film/resize/bw15.jpg",
+    "resources/img/film/resize/bw2.jpg",
 
 ]
 
