@@ -263,6 +263,10 @@ ul{
         opacity: 100%;
     }
 
+    #about{
+        /* height: 100vw; */
+    }
+
 }
 
 @media only screen and (max-width:768px){
@@ -364,7 +368,7 @@ li{
 }
 
 .full{
-    height: fit-content;
+    min-height: fit-content;
     justify-content: flex-start;
 }
 
