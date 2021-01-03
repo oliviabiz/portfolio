@@ -360,6 +360,10 @@ li{
     /* border-bottom: 1px dashed black; */
 }
 
+.block p{
+    margin-right: 5%;
+}
+
 .full{
     min-height: fit-content;
     justify-content: flex-start;
