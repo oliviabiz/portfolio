@@ -354,12 +354,14 @@ li{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: center;
     font-family: "Merriweather";
     font-size: x-large;
     padding: 10%;
     min-width: 100vw;
+
+    align-items: flex-start;
     /* margin: 1; */
     /* border-bottom: 1px dashed black; */
 }
