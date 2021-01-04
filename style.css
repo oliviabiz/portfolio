@@ -323,8 +323,12 @@ ul{
 }
 
 li{
-    width: fit-content;
+    /* width: fit-content; */
     height: fit-content;
+}
+
+.content-list li{
+    width: fit-content;
 }
 
 .display-image{
