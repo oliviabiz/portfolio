@@ -268,7 +268,7 @@ ul{
     }
 
     #title{
-        display: none;
+        /* display: none; */
     }
 
     header *{
@@ -384,10 +384,31 @@ li{
 form{
     display: flex;
     flex-direction: column;
-    align-items: space-around;
+    align-items: center;
+    justify-content: center;
     /* height: fit-content; */
 }
 
+form * {
+    
+    margin-bottom: 1vh;
+}
+
+button, input[type=button], input[type=submit]{
+    background-color: grey;
+    color: whitesmoke;
+    padding: 0 5%;
+    width: fit-content;
+    font-size: 1rem;
+    border: 0.05rem solid black;
+    /* font: inherit; */
+    /* color: inherit; */
+    border-radius: 5px;
+    -webkit-appearance: none;
+}
+button:hover, input[type=button]:hover, input[type=submit]:hover, button:active, input[type=button]:active, input[type=submit]:active{
+    color: rgb(41, 41, 41);
+}
 textarea:hover, textarea:focus{
     cursor: text;
 }
