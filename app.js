@@ -35,7 +35,7 @@ var images_film = [
     "resources/img/film/resize/zo2.jpg",
     "resources/img/film/resize/bw14.JPG",
     "resources/img/film/resize/bw9.JPG",
-    "resources/img/film/resize/bw5.JPG",
+    "resources/img/film/resize/bw5.jpg",
     "resources/img/film/resize/bw3.jpg",
     "resources/img/film/resize/bw4.JPG",
     "resources/img/film/resize/bw8.JPG",
