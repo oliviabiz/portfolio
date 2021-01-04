@@ -368,14 +368,17 @@ li{
 /* TODO */
 
 .container{
-    background-color: red;
+    /* background-color: red; */
+    border: 2px solid black;
 }
+
 #list{
     background-color: aquamarine;
+    border: 2px dashed blue;
 }
 
 .full{
-    border: 2px solid red;
+    border: 2px solid yellow;
     min-height: fit-content;
     justify-content: flex-start;
 }
