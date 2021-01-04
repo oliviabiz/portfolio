@@ -356,16 +356,12 @@ li{
     font-size: x-large;
     padding: 10%;
     min-width: 100vw;
-    margin: 1;
+    /* margin: 1; */
     /* border-bottom: 1px dashed black; */
 }
 
-.mini{
-    margin:5%;
-}
-
 .block p{
-    margin-right: 5%;
+    /* margin-right: 5%; */
 }
 
 .full{
