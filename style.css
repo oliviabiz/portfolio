@@ -47,7 +47,7 @@ a:hover, a:active{
 
 .container{
     position: absolute;
-    top: 4vh;
+    top: 4vmax;
     /* top: auto; */
     bottom: 0;   
     z-index: 100;
@@ -71,8 +71,8 @@ header{
     left: 0;
     margin: 0;
     /* height: 4vh; */
-    min-height: 4vh;
-    max-height: fit-content;
+    height: 4vmax;
+    /* max-height: fit-content; */
     /* width: 100vw; */
     width: 100%;
 
@@ -86,21 +86,12 @@ header{
     transition: 0.5s;
 }
 
-header:hover{
-    /* height: 5vh; */
-    /* cursor:url(resources/trn_w_75.png), auto; */
-}
-
-#main-nav:hover *{
+header *{
     cursor:url(resources/trn_w_75.png), auto;
 }
 
-#title{
-    /* color: whitesmoke; */
-    /* font-size: x-large; */
-}
-
 #nav-bar{
+    height: 4vmin;
     /* height: 100%; */
     max-height: fit-content;
     width: 100%;
@@ -127,11 +118,14 @@ header *{
 #title{
     max-height: min-content;
     margin: 0;
-    font-size: 1.5em;
+    font-size: calc(8px + 1.5vmax);
+    /* font-style: italic; */
+    /* color: rgb(199, 199, 199); */
+    text-decoration: underline dashed 0.1em rgba(255, 217, 0);
 }
 
 .main-nav-link{
-    /* padding: 0.3em; */
+    font-size: calc(8px + 1vmax);
 }
 
 
@@ -322,6 +316,13 @@ ul{
     }
 }
 
+@media only screen and (orientation:landscape) and (max-height:935px){
+ .block{
+    font-size: 2.5vh !important;
+ }   
+
+}
+
 li{
     /* width: fit-content; */
     height: fit-content;
@@ -350,6 +351,12 @@ li{
     position: relative;
 }
 
+.block p{
+    /* background-color: red; */
+    /* margin-top: calc(1em+2vh); */
+    /* margin-bottom: calc(1em+2vh); */
+}
+
 .block{
     display: flex;
     flex-direction: column;
@@ -358,8 +365,11 @@ li{
     text-align: center;
     font-family: "Merriweather";
     font-size: x-large;
+    /* font-size: 1.5vmax; */
+    /* font-size: calc(16px + 0.5vmin); */
     padding: 5%;
     min-width: 100vw;
+    max-width: fit-content;
 
     /* margin: 1; */
     /* border-bottom: 1px dashed black; */
