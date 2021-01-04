@@ -361,16 +361,21 @@ li{
     padding: 10%;
     min-width: 100vw;
 
-    align-items: flex-start;
     /* margin: 1; */
     /* border-bottom: 1px dashed black; */
 }
 
-.block p{
-    /* margin-right: 5%; */
+/* TODO */
+
+.container{
+    background-color: red;
+}
+#list{
+    background-color: aquamarine;
 }
 
 .full{
+    border: 2px solid red;
     min-height: fit-content;
     justify-content: flex-start;
 }
