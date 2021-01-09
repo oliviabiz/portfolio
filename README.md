@@ -1,3 +1,3 @@
 # oliviabiz.github.io
-Personal portfolio for Olivia Bizimungu
+Personal photography portfolio for Olivia Bizimungu
 [oliviabiz.me](http://oliviabiz.me)
