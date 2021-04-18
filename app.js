@@ -24,7 +24,7 @@ var images_film = [
     "resources/img/film/resize/han1.jpg",
     "resources/img/film/resize/han2.jpg",
     "resources/img/film/resize/han3.jpg",
-    "resources/img/film/resize/han4.jpg",
+    // "resources/img/film/resize/han4.jpg",
     "resources/img/film/resize/jord1.jpg",
     "resources/img/film/resize/jord2.jpg",
     "resources/img/film/resize/jord4.jpg",
@@ -32,7 +32,7 @@ var images_film = [
 
     "resources/img/film/resize/jord5.jpg",
     "resources/img/film/resize/zo1.jpg",
-    "resources/img/film/resize/zo2.jpg",
+    // "resources/img/film/resize/zo2.jpg",
     "resources/img/film/resize/bw14.JPG",
     // "resources/img/film/resize/bw10.JPG",
     // "resources/img/film/resize/bw5.jpg",
@@ -103,3 +103,15 @@ window.onload = function () {
         }
     )
 }
+
+function transformScroll(event) {
+    if (!event.deltaY) {
+        return;
+    }
+
+    event.currentTarget.scrollLeft += event.deltaY * 4 // + event.deltaX;
+    event.preventDefault();
+}
+
+var scroll = document.scrollingElement || document.documentElement;
+scroll.addEventListener('wheel', transformScroll);
