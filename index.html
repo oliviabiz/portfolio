@@ -1,57 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
     <meta charset="UTF-8">
     <meta name="author" content="Olivia Bizimungu">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1, user-scalable=no">
-    <!-- <title>olivia bizimungu</title> -->
     <title>olivia bizimungu</title>
 
     <link rel="stylesheet" href="style.css">
     <link rel="icon" href="resources/img/icon.png">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.7.1.min.js"></script>
 </head>
 
 <body>
     <header>
         <div id="nav-bar">
-            <nav id="main-nav">
-                <!-- <a class="main-nav-link" href="home">home</a> -->
-                <a class="main-nav-link" href="/art.html">photo</a>
-                <!-- <a class="main-nav-link" href="about.html">about</a> -->
-                <!-- <a class="main-nav-link" href="research.html">research</a> -->
-                <!-- <a class="main-nav-link" href="code.html">code</a> -->
-                <a class="main-nav-link" href="/contact.html">contact</a>
-            </nav>
-            <a id="title" class="main-nav-link" href="#">olivia bizimungu</a>
+            <a id="title" class="nav-link" href="/index.html">olivia biz photography</a>
+            <!-- <a href="/portraits.html" class="drop-down">portraits</a>
+                <a href="/street.html" class="drop-down">street</a>
+                <a href="events" class="drop-down">events</a> -->
+            <a href="/portraits.html" class="nav-link">people</a>
+            <a href="/places.html" class="nav-link">places</a>
+            <a href="#" class=" nav-link">about</a>
         </div>
     </header>
 
 
     <div class="container">
+        <ul id="page-list">
+            <li class="page-list-item">
+                <img src="/resources/profile1.jpg" alt="" class="display-image">
+            </li>
+            <li class="page-list-item">
+                <div id="about">
+                    <div class="about-text">
+                        <!-- <i>
+                            montréal-based film photographer
+                        </i> -->
+                        <!-- <h1>olivia biz</h1> -->
+                        <br>
+                        <h1> artist | scientist | lover</h1>
 
-        <ul id="list">
-            <li class=" block full">
-                <h1>hi! i'm biz, 22 yrs old, and i take a lot of photos
-                </h1>
+                        <br>
 
-                <h3>check out my<a href="/art.html" class="inner-link">portfolio</a>and my<a href="/contact.html"
-                        class="inner-link">socials</a>
-                    <p>thanks for stopping by :)</p>
-                </h3>
 
-                <div class="image-row">
-                    <!-- <img class="display-image component" id="profile-pic" src="/resources/img/me.jpg"
-                        style="visibility: visible;"> -->
-                    <!-- <img class="display-image component" id="profile-pic" src="/resources/img/me.jpg"
-                        style="visibility: visible;"> -->
-                    <img class="display-image component" id="profile-pic" src="/resources/img/me.jpg"
-                        style="visibility: visible;">
+                        <p>
+                            i picked up my first film camera at age 17 and have been chasing light ever since
+                        </p>
+
+
+                        <br>
+                        <p>
+                            now 23, i
+                            wander the city with a pocket full of wonder and a sharp set of lenses, always ready to
+                            capture the ephemeral
+                        </p>
+                        <br>
+                        <p>
+                            from trees that stand with emotion, to eyes that carry love -
+                            <br>
+                            always, i am guided by light.
+                        </p>
+                        <br>
+                        <p>
+                            currently based in montréal [canada] and accepting new gigs!
+                        </p>
+                        <br>
+                        <p>
+                            <strong>
+                                whether you need portrait,
+                                event, or product photography, i'm happy to help bring your creative visions to life:
+                                <a href="mailto:oliviabi@live.com">
+                                    <ins>
+                                        let's chat
+                                    </ins>
+                                </a>
+                                !
+                            </strong>
+                        </p>
+                        <br>
+
+                        <i>xoxo, biz (she/they)</i>
+                        <br>
+                        <br>
+                    </div>
+                    <div id="out-links">
+                        <a href="mailto:oliviabi@live.com">get in touch</a>
+                        <a href="https://oliviabiz.darkroom.tech" target="_blank">buy a print</a>
+                        <a href="https://instagram.com/oliviabiz" target="_blank">see more</a>
+                    </div>
                 </div>
+
             </li>
         </ul>
+
     </div>
 
 </body>
+<script>
+    // var folder = "resources/img/places/";
+</script>
+<script src="photo.js"></script>
 
 </html>
