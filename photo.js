@@ -4,8 +4,11 @@ $(document).ready(
     $.ajax({
         url: folder,
         success: function (data) {
+            console.log('document ready:: ajax func')
             $(data).find("a").attr("href", function (i, val) {
+                console.log('searching:', val)
                 if (val.match(/\.(jpe?g|png|gif|JPG)$/)) {
+                    console.log('val is an image: can set it')
                     val = '.' + val
                     set_image(val)
                 }
@@ -53,3 +56,7 @@ function transformScroll(event) {
 var scroll = document.scrollingElement || document.documentElement;
 
 scroll.addEventListener('wheel', transformScroll);
+
+$(window).load(function () {
+    image_list.style.visibility = "visible";
+})

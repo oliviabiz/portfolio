@@ -72,8 +72,6 @@ a {
     align-items: center;
     /* height: 90%; */
     height: 80%;
-
-    /* background-color: antiquewhite; */
 }
 
 #page-list {
@@ -196,6 +194,10 @@ ul {
 .display-image-container {
     height: 100%;
     padding: 0.1vw;
+}
+
+#image-list {
+    visibility: hidden;
 }
 
 @media (orientation:landscape) {
