@@ -1,17 +1,19 @@
 // var folder = "resources/img/places/";
 
-$.ajax({
-    url: folder,
-    success: function (data) {
-        $(data).find("a").attr("href", function (i, val) {
-            if (val.match(/\.(jpe?g|png|gif|JPG)$/)) {
-                val = '.' + val
-                set_image(val)
-            }
-        });
-        // set_images()
-    },
-})
+$(document).ready(
+    $.ajax({
+        url: folder,
+        success: function (data) {
+            $(data).find("a").attr("href", function (i, val) {
+                if (val.match(/\.(jpe?g|png|gif|JPG)$/)) {
+                    val = '.' + val
+                    set_image(val)
+                }
+            });
+            // set_images()
+        },
+    })
+)
 
 var image_list = document.querySelector("#image-list")
 
