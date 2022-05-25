@@ -1,24 +1,3 @@
-// var folder = "resources/img/places/";
-
-// $(document).ready(
-//     $.ajax({
-//         url: folder,
-//         success: function (data) {
-//             console.log('document ready:: ajax func')
-//             $(data).find("a").attr("href", function (i, val) {
-//                 console.log('searching:', val)
-//                 if (val.match(/\.(jpe?g|png|gif|JPG)$/)) {
-//                     console.log('val is an image: can set it')
-//                     val = '.' + val
-//                     set_image(val)
-//                 }
-//             });
-//             // set_images()
-//         },
-//     })
-// )
-
-
 window.addEventListener('load', function () {
     index = 1
     while (index < 100) {
@@ -32,10 +11,10 @@ window.addEventListener('load', function () {
 var image_list = document.querySelector("#image-list")
 
 function set_image(image_name) {
-    var item = document.createElement('li');
-    item.classList.add('display-image-container')
     try {
-        item.innerHTML = `<img class="display-image component" src="${image_name}" alt="">`
+        var item = document.createElement('li');
+        item.classList.add('display-image-container')
+        item.innerHTML = `<img class="display-image component" src="${image_name}" alt="" onerror=javascript:this.parentElement.remove();>`
         image_list.appendChild(item);
     }
     catch (err) {
@@ -61,7 +40,7 @@ function transformScroll(event) {
             return;
         }
 
-        event.currentTarget.scrollLeft += event.deltaY * 4 // + event.deltaX;
+        image_list.scrollLeft += event.deltaY  // + event.deltaX;
         event.preventDefault();
     }
 }
@@ -69,7 +48,3 @@ function transformScroll(event) {
 var scroll = document.scrollingElement || document.documentElement;
 
 scroll.addEventListener('wheel', transformScroll);
-
-// $(window).load(function () {
-//     image_list.style.visibility = "visible";
-// })
