@@ -158,7 +158,7 @@ header {
 .nav-link {
     transition: 0.2s linear;
     /* transition: visibility 0.s linear; */
-    font-size: 1.5vmax;
+    font-size: 1.75vmax;
     color: black;
     font-weight: 300;
 }
@@ -196,9 +196,9 @@ ul {
     padding: 0.1vw;
 }
 
-#image-list {
+/* #image-list {
     visibility: hidden;
-}
+} */
 
 @media (orientation:landscape) {
 
