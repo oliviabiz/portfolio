@@ -189,9 +189,6 @@ ul {
 
 .display-image-container {
     height: 100%;
-    padding-bottom: 0.2vw;
-    /* padding-right: 0.2vw; */
-    padding-left: 0.2vw;
 }
 
 
@@ -206,6 +203,11 @@ ul {
 
     .display-image:hover {
         opacity: 100%;
+    }
+
+    .display-image-container {
+        padding-bottom: 0.2vw;
+        padding-left: 0.2vw;
     }
 
     .content-list {
@@ -264,6 +266,9 @@ ul {
         width: 100vw;
     }
 
+    .display-image-container {
+        /* padding-bottom: 0.1vmin; */
+    }
 
     .container {
         /* position: fixed; */
